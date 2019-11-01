@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>QRCode Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.qrcode.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>QRCode Generator</h1>
+        </div>
+        <div class="row">
+            <input type="text" id="inputUrl" name="query">
+            <button class="button-primary" id="button">QRコード生成</button>
+            <div id="displayQR"></div>
+        </div>
+    </div>
+</body>
+</html>
